@@ -64,7 +64,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">
-                    Danh Sách Lịch Chiếu
+                    Danh Sách Nhân Viên
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">

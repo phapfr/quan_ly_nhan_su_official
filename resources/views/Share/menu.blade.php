@@ -12,7 +12,7 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                 data-accordion="false">
                 <li class="nav-item menu-open">
-                    <a href="/admin/nhan-vien/thong-ke" class="nav-link active bg-success">
+                    <a href="/" class="nav-link active btn-dashboard">
                         <i class="fa-solid fa-chart-line" style="font-size: 25px"></i>
                         <p style="font-size: 25px">
                             Dashboard

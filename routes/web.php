@@ -14,7 +14,6 @@ Route::prefix('admin')->group(function () {
         Route::get('/index', [NhanVienController::class, 'index']);
         Route::post('/store', [NhanVienController::class, 'store']);
         Route::get('/data', [NhanVienController::class, 'getData']);
-        Route::get('/thong-ke', [NhanVienController::class, 'thongKe']);
     });
 
     Route::prefix('chuc-vu')->group(function () {

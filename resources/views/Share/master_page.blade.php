@@ -15,7 +15,6 @@
         </div>
 
         <!-- Navbar -->
-        @include('Share.header')
         <!-- /.navbar -->
 
         <!-- Main Sidebar Container -->
