@@ -37,7 +37,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered">
                             <thead class="bg-primary text-light">
-                                <tr class="text-nowrap">
+                                <tr class="text-nowrap text-center">
                                     <th>#</th>
                                     <th>Mã chức vụ</th>
                                     <th>Tên chức vụ</th>

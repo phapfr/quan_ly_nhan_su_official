@@ -89,8 +89,8 @@
                                     <td class="align-middle">@{{ v.ho_va_ten }}</td>
                                     <td class="align-middle">@{{ v.sdt }}</td>
                                     <td class="align-middle">@{{ v.que_quan }}</td>
-                                    <td class="align-middle">@{{ v.ma_chuc_vu }}</td>
-                                    <td class="align-middle">@{{ v.ma_phong_ban }}</td>
+                                    <td class="align-middle">@{{ v.ten_chuc_vu }}</td>
+                                    <td class="align-middle">@{{ v.ten_phong_ban }}</td>
                                     <td class="align-middle">@{{ v.bac_luong }}</td>
                                     <td class="text-center text-nowrap">
                                         <button class="btn btn-primary">Cập nhật</button>

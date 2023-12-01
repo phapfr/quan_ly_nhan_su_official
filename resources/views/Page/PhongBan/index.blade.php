@@ -45,7 +45,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered">
                             <thead class="bg-primary text-light">
-                                <tr class="text-nowrap">
+                                <tr class="text-nowrap text-center">
                                     <th>#</th>
                                     <th>Mã phòng ban</th>
                                     <th>Tên phòng ban</th>
@@ -87,7 +87,7 @@
                 // slug: '',
             },
             created() {
-            this.loadPhongBan();
+                this.loadPhongBan();
             },
             methods: {
                 createPhongBan() {
@@ -95,6 +95,7 @@
                         .post('/admin/phong-ban/store', this.them_moi)
                         .then((res) => {
                             toastr.success('Đã thêm mới phòng ban thành công!');
+                            this.loadPhongBan();
                         })
                         .catch((res) => {
                             $.each(res.response.data.errors, function(k, v) {
@@ -107,7 +108,6 @@
                         .get('/admin/phong-ban/data')
                         .then((res) => {
                             this.ds_phongban = res.data.phong_ban;
-                            this.loadPhongBan();
                         });
                 },
             }

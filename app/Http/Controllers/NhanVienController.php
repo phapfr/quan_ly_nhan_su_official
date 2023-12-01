@@ -41,6 +41,7 @@ class NhanVienController extends Controller
             ->join('luongs', 'nhan_viens.bac_luong', 'luongs.id')
             ->join('chuc_vus', 'nhan_viens.ma_chuc_vu', 'chuc_vus.id')
             ->select('nhan_viens.*', 'phong_bans.ten_phong_ban', 'luongs.bac_luong', 'chuc_vus.ten_chuc_vu')
+            ->orderBy('nhan_viens.id')
             ->get();
 
 
